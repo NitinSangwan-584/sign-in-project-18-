@@ -1,16 +1,84 @@
 :root {
     --font-family-lato: "Lato", sans-serif;
-    --font-family-poppins: "poppins",sans-serif;
+    --font-family-poppins: "poppins", sans-serif;
     --color-black: #030712;
     --color-blue: #2194FF;
+    --bg-blue: #2194FF;
+    --border-blue: #2194FF;
+    --border-top: #C9CFDB;
     --color-grey: #62656D;
-    --color-white:white;
+    --color-white: white;
     --bg-white: #E4EAF7;
+    --border-white: #E4EAF7;
     --color-light-grey: #9197A6;
+    --bg-black: black;
 }
-.lato{
+
+.lato {
     font-family: var(--font-family-lato);
 }
-.poppins{
+
+.poppins {
     font-family: var(--font-family-poppins);
+}
+
+.color-grey {
+    color: var(--color-grey);
+}
+
+.border-top {
+    border: 2px solid var(--border-top);
+}
+
+.border-blue {
+    border: 1px solid var(--color-blue);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+.color-light-grey {
+    color: var(--color-light-grey);
+}
+
+.btn:hover {
+    color: var(--color-blue);
+    background: var(--bg-white);
+}
+
+.instagram-svg:hover {
+    background-color: var(--bg-black);
+}
+
+.twitter-svg:hover {
+    background-color: var(--bg-black);
+}
+
+.linkedin-svg:hover {
+    background-color: var(--bg-black);
+}
+
+.svg-facebook:hover {
+    background-color: var(--bg-black);
+}
+
+.border-white {
+    border: 1px solid var(--border-white);
+}
+
+.twitter-svg:hover path {
+    fill: var(--color-black);
+}
+
+hr::after {
+    background-color: var(--color-white);
 }

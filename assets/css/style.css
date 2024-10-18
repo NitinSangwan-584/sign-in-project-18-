@@ -43,12 +43,15 @@ section {
 .d-flex {
     display: flex;
 }
-.text-align-center{
+
+.text-align-center {
     text-align: center;
 }
-.text-align-left{
+
+.text-align-left {
     text-align: left;
 }
+
 .align-item {
     align-items: center;
 }
@@ -72,14 +75,13 @@ section {
     font-size: 32px;
     font-weight: 600;
     line-height: 43.2px;
-       margin-top: 48px;
+    margin-top: 48px;
 }
 
 .para {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-        color: #62656D;
     margin-top: 10px;
 }
 
@@ -87,7 +89,7 @@ section {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
- }
+}
 
 input {
     width: 252px;
@@ -95,10 +97,7 @@ input {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-        margin-left: 10px;
-    color:black;
-    background-color:#E4EAF7;
-    border: 1px solid #E4EAF7;
+    margin-left: 10px;
 }
 
 .gmail-svg {
@@ -109,7 +108,6 @@ input {
 }
 
 .Email {
-    background-color: #E4EAF7;
     width: 340px;
     height: 44px;
     padding: 10px 16px 10px 16px;
@@ -122,11 +120,10 @@ input {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-      margin-left: 10px;
+    margin-left: 10px;
 }
 
 .lock {
-    background-color: #E4EAF7;
     width: 340px;
     height: 44px;
     padding: 10px 16px 10px 16px;
@@ -147,7 +144,6 @@ input {
     line-height: 21px;
     margin-left: 20px;
     margin-top: 13px;
-    color: #62656D;
 }
 
 .forgot {
@@ -155,42 +151,29 @@ input {
     font-weight: 400;
     line-height: 21px;
     text-align: right;
-    color: #62656D;
     margin-top: 13px;
     padding-left: 100px;
-
 }
 
 .btn {
     width: 340px;
     height: 48px;
-       border-radius: 50px;
+    border-radius: 50px;
     margin-top: 24px;
     margin-right: 55%;
-    color: white;
-    background:#2194FF;
-    border: 1px solid #2194FF;
 }
-
-.btn:hover {
-    color:#2194FF;
-    background: white;
-  }
-
 
 hr {
     border: none;
-    border-top: 2px solid #C9CFDB;
+    border-top: 2px solid var(--border-top);
     width: 340px;
     margin-top: 26px;
-    color: #919789;
     overflow: visible;
     text-align: center;
     height: 5px;
 }
 
 hr::after {
-    background: #fff;
     content: 'or continue with';
     padding: 0 7px;
     position: relative;
@@ -201,7 +184,6 @@ hr::after {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    color: #62656D;
     width: 44px;
     height: 21px;
     margin-left: 10px;
@@ -212,7 +194,6 @@ hr::after {
     height: 41px;
     padding: 10px 16px 10px 16px;
     border-radius: 6px;
-    border: 1px solid #E4EAF7;
     margin-top: 21px;
 }
 
@@ -220,8 +201,7 @@ hr::after {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-       margin-left: 10px;
-    color: #62656D;
+    margin-left: 10px;
 }
 
 .facebook-svg-text {
@@ -229,7 +209,6 @@ hr::after {
     height: 41px;
     padding: 10px 16px 10px 16px;
     border-radius: 6px;
-    border: 1px solid #E4EAF7;
     margin-top: 21px;
     margin-left: 8px;
 }
@@ -253,15 +232,10 @@ hr::after {
     top: 27.5%;
     right: 40%;
     z-index: 2;
-    background-color: white;
     border-radius: 50%;
     width: 65px;
     height: 65px;
     padding-top: 9px;
-}
-
-.svg-facebook:hover {
-    background-color:black;
 }
 
 .linkedin-svg {
@@ -269,15 +243,10 @@ hr::after {
     top: 41.5%;
     right: 40%;
     z-index: 2;
-    background-color: white;
     border-radius: 50%;
     width: 65px;
     height: 65px;
     padding-top: 7.5px;
-}
-
-.linkedin-svg:hover {
-    background-color:black;
 }
 
 .instagram-svg {
@@ -285,15 +254,10 @@ hr::after {
     top: 57.5%;
     right: 40%;
     z-index: 2;
-    background-color: white;
     border-radius: 50%;
     width: 65px;
     height: 65px;
     padding-top: 9px;
-    }
-
-.instagram-svg:hover {
-    background-color:black;
 }
 
 .twitter-svg {
@@ -301,19 +265,12 @@ hr::after {
     top: 71%;
     right: 40%;
     z-index: 2;
-    background-color: white;
     border-radius: 50%;
     width: 65px;
     height: 65px;
     padding-top: 8px;
 }
 
-.twitter-svg:hover {
-    background-color: black;
-}
-.twitter-svg:hover path{
-    fill: black;
-}
 .img {
     position: absolute;
     top: 31%;
