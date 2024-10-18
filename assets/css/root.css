@@ -1,0 +1,16 @@
+:root {
+    --font-family-lato: "Lato", sans-serif;
+    --font-family-poppins: "poppins",sans-serif;
+    --color-black: #030712;
+    --color-blue: #2194FF;
+    --color-grey: #62656D;
+    --color-white:white;
+    --bg-white: #E4EAF7;
+    --color-light-grey: #9197A6;
+}
+.lato{
+    font-family: var(--font-family-lato);
+}
+.poppins{
+    font-family: var(--font-family-poppins);
+}
